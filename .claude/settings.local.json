@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(& \"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" auth login --with-token 2>&1)",
+      "PowerShell(& \"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" auth status 2>&1)",
+      "PowerShell(Invoke-RestMethod -Uri \"https://api.github.com\" -Method Get | Select-Object -ExpandProperty current_user_url)",
+      "PowerShell(& \"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" repo list --limit 5 2>&1)",
+      "PowerShell(Start-Process \"C:\\\\Users\\\\LIN\\\\my-project\\\\tetris.html\")",
+      "PowerShell(Start-Process \"C:\\\\Users\\\\LIN\\\\my-project\\\\tetris3d.html\")"
+    ]
+  }
+}
